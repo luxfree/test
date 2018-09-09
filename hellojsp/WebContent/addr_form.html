@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>주소록 등록</h2>
+<form action="addr_add.jsp" method="post">
+	<table>
+	<thead></thead>
+	<tbody>
+	<tr>
+		<td>이름</td>
+		<td><input type="text" name="username" /></td>
+	</tr>
+	<tr>
+		<td>전화번호</td>
+		<td><input type="text" name="tel" /></td>
+	</tr>
+	<tr>
+		<td>이메일</td>
+		<td><input type="text" name="email" /></td>
+	</tr>
+	<tr>
+		<td>성별</td>
+		<td>
+			<select name="sex">
+				<option value="남" selected>남</option>
+				<option value="여">여</option>
+			</select>
+		</td>
+	</tr>
+	</tbody>
+	<tfoot>
+	<tr>
+		<td colspan="2">
+			<input type="submit" value="확인" />
+			<input type="reset" value="취소" />			
+		</td>
+	</tr>	
+	</tfoot>
+	</table>
+</form>
+</body>
+</html>
